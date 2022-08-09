@@ -12,7 +12,7 @@ import Kingfisher
 
 extension UIImageView {
     func setImageUrl(_ url:NKUrlValue?) -> Void {
-        var mainUrl:URL? = nil
+        var mainUrl: URL? = nil
         if let value = url as? URL {
             mainUrl = value
         } else if let value = url as? String {
@@ -42,7 +42,7 @@ extension UIImageView {
         self.image = nil
     }
     
-    var imageAnimation:UIImage? {
+    var imageAnimation: UIImage? {
         get {
             return image
         }
